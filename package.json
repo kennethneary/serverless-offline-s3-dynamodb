@@ -1,0 +1,20 @@
+{
+  "name": "app-serverless-express",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.693.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "serverless-http": "^2.5.0"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.4.0",
+    "serverless-s3-local": "^0.6.1",
+    "sharp": "^0.25.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}

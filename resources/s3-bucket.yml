@@ -1,0 +1,5 @@
+Resources:
+  ProductS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: ${self:custom.bucketNames.product}
